@@ -269,7 +269,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/72/99/cafef234114a3b6d9f3aaed0723b437c40c57bdb7b3e4c3a575bc4890052/pytest-9.0.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/a3/dc/17031897dae0efacfea57dfd3a82fdd2a2aeb58e0ff71b77b87e44edc772/setuptools-80.9.0-py3-none-any.whl
-      - pypi: git+https://github.com/CoreVisionX/slam.git?branch=macos-package#21e5ab51f3741deb02cbc4d2d3c1790fc266ca1b
+      - pypi: git+https://github.com/CoreVisionX/slam.git?branch=macos-fix-pointcloud#cab37134d85c83cffa7a3c1698ef1fcd47bd4dc0
       - pypi: https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ff/c3/a91f96ec74347fa5fd24453fa514bc61c61ecc79196fa760b012a1873d96/torch-2.9.0-cp313-none-macosx_11_0_arm64.whl
 packages:
@@ -3694,7 +3694,7 @@ packages:
   - pkg:pypi/six?source=hash-mapping
   size: 18455
   timestamp: 1753199211006
-- pypi: git+https://github.com/CoreVisionX/slam.git?branch=macos-package#21e5ab51f3741deb02cbc4d2d3c1790fc266ca1b
+- pypi: git+https://github.com/CoreVisionX/slam.git?branch=macos-fix-pointcloud#cab37134d85c83cffa7a3c1698ef1fcd47bd4dc0
   name: slam
   version: 0.1.0
   requires_dist:

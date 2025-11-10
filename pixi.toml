@@ -14,4 +14,4 @@ gtsam = ">=4.2.0,<5"
 pip = ">=25.2,<26"
 
 [pypi-dependencies]
-slam = { git = "https://github.com/CoreVisionX/slam.git", branch = "macos-package" }
+slam = { git = "https://github.com/CoreVisionX/slam.git", branch = "main" }
