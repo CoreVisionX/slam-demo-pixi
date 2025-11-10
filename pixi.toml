@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Ben Caunt <bdcaunt@gmail.com.com>"]
+channels = ["conda-forge"]
+name = "stereo-calibration-demo"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+preview = ["pixi-build"] # add this line here! 
+
+[tasks]
+
+[dependencies]
+corevisionx-calib = { git = "https://github.com/CoreVisionX/CoreVisionX-calibration", branch = "main" }
+gtsam = ">=4.2.0,<5"
+pip = ">=25.2,<26"
+
+[pypi-dependencies]
+slam = { git = "https://github.com/CoreVisionX/slam.git", branch = "macos-package" }
