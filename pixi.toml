@@ -2,7 +2,7 @@
 authors = ["Ben Caunt <bdcaunt@gmail.com.com>"]
 channels = ["conda-forge"]
 name = "stereo-calibration-demo"
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-aarch64"]
 version = "0.1.0"
 preview = ["pixi-build"] # add this line here! 
 
